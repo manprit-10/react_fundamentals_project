@@ -1,0 +1,40 @@
+.courses_container {
+  border: 2px solid skyblue;
+  padding: 25px 15px;
+}
+.courses {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.courses li {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 30px;
+}
+.description {
+  text-align: left;
+}
+
+.details {
+  text-align: left;
+}
+
+.courses-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.courses-header input{
+  width: 28rem;
+  border: 1px solid yellow;
+}
+
+.main-courses{
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

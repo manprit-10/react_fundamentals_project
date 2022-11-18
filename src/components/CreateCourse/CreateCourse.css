@@ -1,0 +1,52 @@
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.align-space-between {
+  align-items: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+.create-courses {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  margin: 1rem 0rem;
+}
+.courses_title p {
+  text-align: left;
+}
+.show-author{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.pad-3-rem{
+  padding: 3rem;
+  border: 1px solid black;
+  margin-top: 25px;
+}
+.course-desc textarea{
+  width: 99%;
+  height: 6rem;
+}

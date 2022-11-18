@@ -1,0 +1,13 @@
+.show-course-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.show-course-section{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap:5rem;
+}

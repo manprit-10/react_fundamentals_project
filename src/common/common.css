@@ -1,0 +1,11 @@
+.button_main{
+    width: 8rem;
+    height: 30px;
+    background-color: transparent;
+    border: 2px solid purple;
+}
+.input_main{
+    width: 15rem;
+    border-color: transparent;
+    border: 1px solid rgb(192, 192, 20);
+}
